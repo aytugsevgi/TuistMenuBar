@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A20BCF0279C568D00A6FDA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A20BCEF279C568D00A6FDA7 /* AppDelegate.swift */; };
+		4A20BCF2279C568D00A6FDA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A20BCF1279C568D00A6FDA7 /* ViewController.swift */; };
+		4A20BCF4279C568E00A6FDA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A20BCF3279C568E00A6FDA7 /* Assets.xcassets */; };
+		4A20BCF7279C568E00A6FDA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A20BCF5279C568E00A6FDA7 /* Main.storyboard */; };
+		4A20BD00279C5DDB00A6FDA7 /* OutputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A20BCFF279C5DDB00A6FDA7 /* OutputViewController.swift */; };
+		4A60022227B04D2900206C1C /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A60022127B04D2900206C1C /* MenuBarController.swift */; };
+		4A60022527B1A8EC00206C1C /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A60022427B1A8EC00206C1C /* SettingView.swift */; };
+		4A60022727B1A8FC00206C1C /* SettingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A60022627B1A8FC00206C1C /* SettingView.xib */; };
+		4AA866C127A86DF60000162E /* OptionCheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA866C027A86DF60000162E /* OptionCheckboxView.swift */; };
+		4AA866C327A86E2E0000162E /* OptionCheckboxView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA866C227A86E2E0000162E /* OptionCheckboxView.xib */; };
+		4AA866C827A86EA50000162E /* NSView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA866C727A86EA50000162E /* NSView+Extension.swift */; };
+		4AA866CB27A8702E0000162E /* OptionTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA866CA27A8702E0000162E /* OptionTextFieldView.swift */; };
+		4AA866CD27A8703B0000162E /* OptionTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA866CC27A8703B0000162E /* OptionTextFieldView.xib */; };
+		4ACB726F27A6CF23002F3D4A /* AccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB726E27A6CF23002F3D4A /* AccessoryView.swift */; };
+		4ACB727127A6CF35002F3D4A /* AccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ACB727027A6CF35002F3D4A /* AccessoryView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A20BCEC279C568D00A6FDA7 /* TYMenuBarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYMenuBarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A20BCEF279C568D00A6FDA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A20BCF1279C568D00A6FDA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A20BCF3279C568E00A6FDA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A20BCF6279C568E00A6FDA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A20BCF8279C568E00A6FDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A20BCF9279C568E00A6FDA7 /* TYMenuBarApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TYMenuBarApp.entitlements; sourceTree = "<group>"; };
+		4A20BCFF279C5DDB00A6FDA7 /* OutputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputViewController.swift; sourceTree = "<group>"; };
+		4A60022127B04D2900206C1C /* MenuBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarController.swift; sourceTree = "<group>"; };
+		4A60022427B1A8EC00206C1C /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		4A60022627B1A8FC00206C1C /* SettingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingView.xib; sourceTree = "<group>"; };
+		4AA866C027A86DF60000162E /* OptionCheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionCheckboxView.swift; sourceTree = "<group>"; };
+		4AA866C227A86E2E0000162E /* OptionCheckboxView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OptionCheckboxView.xib; sourceTree = "<group>"; };
+		4AA866C727A86EA50000162E /* NSView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSView+Extension.swift"; sourceTree = "<group>"; };
+		4AA866CA27A8702E0000162E /* OptionTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionTextFieldView.swift; sourceTree = "<group>"; };
+		4AA866CC27A8703B0000162E /* OptionTextFieldView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OptionTextFieldView.xib; sourceTree = "<group>"; };
+		4ACB726E27A6CF23002F3D4A /* AccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryView.swift; sourceTree = "<group>"; };
+		4ACB727027A6CF35002F3D4A /* AccessoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccessoryView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A20BCE9279C568D00A6FDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A20BCE3279C568D00A6FDA7 = {
+			isa = PBXGroup;
+			children = (
+				4A20BCEE279C568D00A6FDA7 /* TYMenuBarApp */,
+				4A20BCED279C568D00A6FDA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A20BCED279C568D00A6FDA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A20BCEC279C568D00A6FDA7 /* TYMenuBarApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A20BCEE279C568D00A6FDA7 /* TYMenuBarApp */ = {
+			isa = PBXGroup;
+			children = (
+				4AA866C627A86E840000162E /* Extension */,
+				4A20BD03279C638200A6FDA7 /* Support */,
+				4A20BD02279C637C00A6FDA7 /* ViewController */,
+				4A20BCF5279C568E00A6FDA7 /* Main.storyboard */,
+				4A20BCF8279C568E00A6FDA7 /* Info.plist */,
+				4A20BCF9279C568E00A6FDA7 /* TYMenuBarApp.entitlements */,
+				4A60022127B04D2900206C1C /* MenuBarController.swift */,
+			);
+			path = TYMenuBarApp;
+			sourceTree = "<group>";
+		};
+		4A20BD02279C637C00A6FDA7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4ACB727227A70225002F3D4A /* View */,
+				4A20BCFF279C5DDB00A6FDA7 /* OutputViewController.swift */,
+				4A20BCF1279C568D00A6FDA7 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4A20BD03279C638200A6FDA7 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				4A20BCF3279C568E00A6FDA7 /* Assets.xcassets */,
+				4A20BCEF279C568D00A6FDA7 /* AppDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		4A60022327B1A8CD00206C1C /* SettingView */ = {
+			isa = PBXGroup;
+			children = (
+				4A60022427B1A8EC00206C1C /* SettingView.swift */,
+				4A60022627B1A8FC00206C1C /* SettingView.xib */,
+			);
+			path = SettingView;
+			sourceTree = "<group>";
+		};
+		4AA866C427A86E4A0000162E /* OptionCheckboxView */ = {
+			isa = PBXGroup;
+			children = (
+				4AA866C027A86DF60000162E /* OptionCheckboxView.swift */,
+				4AA866C227A86E2E0000162E /* OptionCheckboxView.xib */,
+			);
+			path = OptionCheckboxView;
+			sourceTree = "<group>";
+		};
+		4AA866C527A86E720000162E /* AccessoryView */ = {
+			isa = PBXGroup;
+			children = (
+				4ACB726E27A6CF23002F3D4A /* AccessoryView.swift */,
+				4ACB727027A6CF35002F3D4A /* AccessoryView.xib */,
+			);
+			path = AccessoryView;
+			sourceTree = "<group>";
+		};
+		4AA866C627A86E840000162E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4AA866C727A86EA50000162E /* NSView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4AA866C927A86FFF0000162E /* OptionTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				4AA866CA27A8702E0000162E /* OptionTextFieldView.swift */,
+				4AA866CC27A8703B0000162E /* OptionTextFieldView.xib */,
+			);
+			path = OptionTextFieldView;
+			sourceTree = "<group>";
+		};
+		4ACB727227A70225002F3D4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A60022327B1A8CD00206C1C /* SettingView */,
+				4AA866C927A86FFF0000162E /* OptionTextFieldView */,
+				4AA866C527A86E720000162E /* AccessoryView */,
+				4AA866C427A86E4A0000162E /* OptionCheckboxView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A20BCEB279C568D00A6FDA7 /* TYMenuBarApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A20BCFC279C568E00A6FDA7 /* Build configuration list for PBXNativeTarget "TYMenuBarApp" */;
+			buildPhases = (
+				4A20BCE8279C568D00A6FDA7 /* Sources */,
+				4A20BCE9279C568D00A6FDA7 /* Frameworks */,
+				4A20BCEA279C568D00A6FDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYMenuBarApp;
+			productName = TYMenuBarApp;
+			productReference = 4A20BCEC279C568D00A6FDA7 /* TYMenuBarApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A20BCE4279C568D00A6FDA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4A20BCEB279C568D00A6FDA7 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 4A20BCE7279C568D00A6FDA7 /* Build configuration list for PBXProject "TYMenuBarApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A20BCE3279C568D00A6FDA7;
+			productRefGroup = 4A20BCED279C568D00A6FDA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A20BCEB279C568D00A6FDA7 /* TYMenuBarApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A20BCEA279C568D00A6FDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACB727127A6CF35002F3D4A /* AccessoryView.xib in Resources */,
+				4A20BCF4279C568E00A6FDA7 /* Assets.xcassets in Resources */,
+				4AA866CD27A8703B0000162E /* OptionTextFieldView.xib in Resources */,
+				4A60022727B1A8FC00206C1C /* SettingView.xib in Resources */,
+				4AA866C327A86E2E0000162E /* OptionCheckboxView.xib in Resources */,
+				4A20BCF7279C568E00A6FDA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A20BCE8279C568D00A6FDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A60022227B04D2900206C1C /* MenuBarController.swift in Sources */,
+				4A20BCF2279C568D00A6FDA7 /* ViewController.swift in Sources */,
+				4ACB726F27A6CF23002F3D4A /* AccessoryView.swift in Sources */,
+				4A60022527B1A8EC00206C1C /* SettingView.swift in Sources */,
+				4A20BD00279C5DDB00A6FDA7 /* OutputViewController.swift in Sources */,
+				4AA866C127A86DF60000162E /* OptionCheckboxView.swift in Sources */,
+				4AA866CB27A8702E0000162E /* OptionTextFieldView.swift in Sources */,
+				4A20BCF0279C568D00A6FDA7 /* AppDelegate.swift in Sources */,
+				4AA866C827A86EA50000162E /* NSView+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A20BCF5279C568E00A6FDA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A20BCF6279C568E00A6FDA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A20BCFA279C568E00A6FDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A20BCFB279C568E00A6FDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4A20BCFD279C568E00A6FDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = TYMenuBarApp/TYMenuBarApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4V6MSLD979;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = TYMenuBarApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.trendyol.TYMenuBarApp;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4A20BCFE279C568E00A6FDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = TYMenuBarApp/TYMenuBarApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4V6MSLD979;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = TYMenuBarApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.trendyol.TYMenuBarApp;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A20BCE7279C568D00A6FDA7 /* Build configuration list for PBXProject "TYMenuBarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A20BCFA279C568E00A6FDA7 /* Debug */,
+				4A20BCFB279C568E00A6FDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A20BCFC279C568E00A6FDA7 /* Build configuration list for PBXNativeTarget "TYMenuBarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A20BCFD279C568E00A6FDA7 /* Debug */,
+				4A20BCFE279C568E00A6FDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A20BCE4279C568D00A6FDA7 /* Project object */;
+}

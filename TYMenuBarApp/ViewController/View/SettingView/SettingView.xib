@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19529" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19529"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView identifier="SettingView" id="c22-O7-iKe" customClass="SettingView" customModule="TYMenuBarApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="446" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="OhP-2X-8t0">
+                    <rect key="frame" x="0.0" y="0.0" width="446" height="70"/>
+                    <subviews>
+                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="tSQ-Qh-wQ5">
+                            <rect key="frame" x="14" y="44" width="32" height="16"/>
+                            <textFieldCell key="cell" lineBreakMode="clipping" title="Path" id="RKJ-Lt-Ccr">
+                                <font key="font" usesAppearanceFont="YES"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                        <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Whw-Pn-r9o">
+                            <rect key="frame" x="54" y="41" width="356" height="21"/>
+                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" placeholderString="Select a project directory" drawsBackground="YES" usesSingleLineMode="YES" id="XR4-Gt-O5i">
+                                <font key="font" metaFont="system"/>
+                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                        <button horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ftD-PM-8Fu">
+                            <rect key="frame" x="413" y="39" width="26" height="26"/>
+                            <buttonCell key="cell" type="round" bezelStyle="circular" image="NSTouchBarFolderTemplate" imagePosition="only" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="2Gd-Ac-USx">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="selectFolderButtonTapped:" target="c22-O7-iKe" id="Btj-ef-QDd"/>
+                            </connections>
+                        </button>
+                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pAh-Iw-IJi">
+                            <rect key="frame" x="349" y="1" width="68" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="18" id="H24-Ng-1IJ"/>
+                                <constraint firstAttribute="width" constant="54" id="JEK-yf-hGf"/>
+                            </constraints>
+                            <buttonCell key="cell" type="push" title="Save" bezelStyle="rounded" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="NeP-YU-q6e">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="saveButtonTapped:" target="c22-O7-iKe" id="OM1-8R-S2u"/>
+                            </connections>
+                        </button>
+                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="YvB-Z6-PAT">
+                            <rect key="frame" x="12" y="8" width="336" height="16"/>
+                            <textFieldCell key="cell" lineBreakMode="clipping" id="pcq-xr-eLQ">
+                                <font key="font" metaFont="system"/>
+                                <color key="textColor" name="systemYellowColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="ftD-PM-8Fu" firstAttribute="top" secondItem="OhP-2X-8t0" secondAttribute="top" constant="8" id="09M-hM-8zY"/>
+                        <constraint firstAttribute="trailing" secondItem="ftD-PM-8Fu" secondAttribute="trailing" constant="10" id="1FG-gJ-Q9T"/>
+                        <constraint firstItem="tSQ-Qh-wQ5" firstAttribute="top" secondItem="OhP-2X-8t0" secondAttribute="top" constant="10" id="1J9-71-AWT"/>
+                        <constraint firstItem="Whw-Pn-r9o" firstAttribute="top" secondItem="OhP-2X-8t0" secondAttribute="top" constant="8" id="1Wi-yK-h3u"/>
+                        <constraint firstAttribute="bottom" secondItem="YvB-Z6-PAT" secondAttribute="bottom" constant="8" id="5Uv-OI-aGZ"/>
+                        <constraint firstItem="pAh-Iw-IJi" firstAttribute="trailing" secondItem="Whw-Pn-r9o" secondAttribute="trailing" id="ACc-YP-tde"/>
+                        <constraint firstItem="pAh-Iw-IJi" firstAttribute="leading" secondItem="YvB-Z6-PAT" secondAttribute="trailing" constant="10" id="OMt-Df-ii9"/>
+                        <constraint firstAttribute="bottom" secondItem="pAh-Iw-IJi" secondAttribute="bottom" constant="8" id="PrQ-P3-jSJ"/>
+                        <constraint firstItem="ftD-PM-8Fu" firstAttribute="leading" secondItem="Whw-Pn-r9o" secondAttribute="trailing" constant="6" id="VH4-Mr-kQy"/>
+                        <constraint firstItem="YvB-Z6-PAT" firstAttribute="leading" secondItem="OhP-2X-8t0" secondAttribute="leading" constant="14" id="X7O-gY-KwS"/>
+                        <constraint firstAttribute="width" constant="446" id="arj-7u-NYX"/>
+                        <constraint firstAttribute="height" constant="70" id="ciL-Cv-nB2"/>
+                        <constraint firstItem="tSQ-Qh-wQ5" firstAttribute="leading" secondItem="OhP-2X-8t0" secondAttribute="leading" constant="16" id="e4P-ss-GEM"/>
+                        <constraint firstItem="Whw-Pn-r9o" firstAttribute="leading" secondItem="tSQ-Qh-wQ5" secondAttribute="trailing" constant="10" id="ps1-o0-M6h"/>
+                    </constraints>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="OhP-2X-8t0" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="BT7-8W-hAH"/>
+                <constraint firstAttribute="bottom" secondItem="OhP-2X-8t0" secondAttribute="bottom" id="UCQ-mS-YzY"/>
+                <constraint firstAttribute="trailing" secondItem="OhP-2X-8t0" secondAttribute="trailing" id="i9H-Uh-lNK"/>
+                <constraint firstItem="OhP-2X-8t0" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="lcV-jZ-ETp"/>
+            </constraints>
+            <connections>
+                <outlet property="infoLabel" destination="YvB-Z6-PAT" id="qyD-3u-OX0"/>
+                <outlet property="pathTextField" destination="Whw-Pn-r9o" id="G4K-3S-1eL"/>
+            </connections>
+            <point key="canvasLocation" x="123" y="110"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="NSTouchBarFolderTemplate" width="19" height="14"/>
+    </resources>
+</document>
