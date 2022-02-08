@@ -17,7 +17,7 @@ final class OptionCheckboxView: NSView {
     }
 
     @IBAction func checkboxTapped(_ sender: Any) {
-        option?.isChecked = isCheckEnabled
+        option?.isChecked.toggle()
     }
 }
 
