@@ -14,4 +14,6 @@ An macos application to generate and execute tuist commands.
 
 <img width="256" alt="Screen Shot 2021-07-08 at 12 21 31" src="https://user-images.githubusercontent.com/33103753/124898191-a2668800-dfe7-11eb-93f8-1e384e7ef8b7.png">
 
-- Go to `System Preferences -> Security & Privacy -> General Tab` and tap `Open Anyway` TuistMenuBar.
+- Click the 'OK' button.
+- If another popup does not open;
+  - Go to `System Preferences -> Security & Privacy -> General Tab` and tap `Open Anyway` TuistMenuBar.
