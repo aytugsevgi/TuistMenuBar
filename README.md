@@ -2,7 +2,7 @@
 
 An macos application to generate and execute tuist commands.
 
-![demo]()
+![app](https://user-images.githubusercontent.com/33103753/152968815-1b7c0adb-f3ae-4279-b60e-1f5c878319ad.gif)
 
 ## Installation
 
