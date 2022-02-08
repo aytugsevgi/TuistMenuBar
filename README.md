@@ -4,7 +4,7 @@ A external macos application to generate and execute tuist commands.
 
 ### How it works?
 
-Parse all tasks and their arguments with the --help command. In this way provide generic finds all custom task and default tasks.
+Parses all tasks and their arguments with the --help command from shell. In this way provide generic finds all custom task and default tasks.
 
 ![app](https://user-images.githubusercontent.com/33103753/152968815-1b7c0adb-f3ae-4279-b60e-1f5c878319ad.gif)
 
