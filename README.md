@@ -10,7 +10,7 @@ Parses all tasks and their arguments with the --help command from shell. In this
 
 ## Installation
 
-- Download the latest release here(wait an hour for some fixes) //[here](https://github.com/aytugsevgi/TuistMenuBar/raw/main/DmgFile/TuistMenuBar.dmg)
+- Download the latest release here(wait an hour for some fixes)
 - Copy the app to the `Applications` folder.
 - Open the app from the applications.
 
