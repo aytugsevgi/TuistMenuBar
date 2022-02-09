@@ -1,6 +1,6 @@
 # Tuist Menu Bar App
 
-A external macos application to generate and execute tuist commands.
+An external macos application to generate and execute tuist commands.
 
 ### How it works?
 
